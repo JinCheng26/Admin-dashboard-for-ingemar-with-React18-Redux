@@ -1,0 +1,21 @@
+.video-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .bg-edit-btn {
+    display: flex;
+
+    background: linear-gradient(60deg, #66bb6a, #009688) !important;
+  }
+  .bg-alram-btn {
+    display: flex;
+
+    background: linear-gradient(60deg, #9c27b0, #673ab7) !important;
+  }
+  .bg-delete-btn {
+    display: flex;
+
+    background: linear-gradient(60deg, #ff5722, #e91e63) !important;
+  }
+}

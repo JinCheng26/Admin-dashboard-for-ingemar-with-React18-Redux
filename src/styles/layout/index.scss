@@ -1,0 +1,28 @@
+.page-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 1rem 0rem 1rem;
+  justify-content: space-between;
+  padding: 0;
+  position: relative;
+  border-radius: 5px;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 0.2rem;
+}
+
+.page-options {
+  margin-left: auto;
+}
+
+.page-header .breadcrumb {
+  font-size: 13px;
+  padding-left: 0 !important;
+}
